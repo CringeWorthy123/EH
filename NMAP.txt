@@ -4,11 +4,13 @@ ACK:
 NMAP -sA -T4 scanme.nmap.org
 
 SYN
-nmap -p 22,113,139 scanme.nmap.org
+nmap -p22,113,139 scanme.nmap.org
 
 FIN
-nmap -sF -T4 para scanme.nmap.org
+nmap -sF -T4 amazon.com
 
 NULL
 nmap -sN -p 22 scanme.nmap.org
 
+XMAS
+namp -sX -T4 scanme.nmap.org
