@@ -1,0 +1,7 @@
+1)ipconfig/ifconfig
+1.1)ipconfig/all
+2)ping amazon.com
+3)netsat
+3.1)netsat -e
+4)tracert amazon.com
+5)nslookup spotify.com
